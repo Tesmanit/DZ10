@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+.frstblock{
+    height: 1000px;
+    background: url(https://ukr.media/static/ba/aimg/4/0/6/406250_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #403d44;
+}
+.scndblock{
+    height: 600px;
+    background-color: rgb(234, 241, 241);
+}
+.thrdblock{
+    height: 600px;
+}
+.frthblock{
+    height: 800px;
+    background: url(https://cetera.ru/uploads/20181101/photo-39.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #1b1b1b;
+    background-repeat: no-repeat;
+}
+.div11{
+    line-height: normal;
+    font-size: 100px
+}
+.div12{
+    font-family: 'Commissioner', sans-serif;
+    padding:0 15%;
+    line-height: normal;
+    font-size: 30px
+}
+.div21{
+    font-size: 50px;
+    line-height: normal;
+}
+.div22{
+    font-size: 30px;
+    line-height: normal;
+    padding:0 10%;
+}
+
+.div31{
+    font-size: 30px;
+}
+.div32{
+    font-size: 40px;
+}
+.div41{
+    font-size: 100px;
+}
+
+@media (max-width: 600px){
+    .frstblock{
+        height: 500px;
+    }
+    .div11{
+        font-size: 30px;
+    }
+    .div12{
+        font-size: 16px;
+    }
+    .div13 button{
+       width: 100px;
+       font-size: 11px;
+    }
+    .div23 button{
+        width: 150px;
+        font-size: 11px;
+     }
+    .div21{
+        font-size: 23px;
+    }
+    .div22{
+        font-size: 14px;
+    }
+    .t3{
+        font-size: 12px;
+    }
+    .div31{
+        font-size: 28px;
+    }
+    .div32{
+        font-size: 35px;
+    }
+    .div41{
+        font-size: 40px;
+    }
+    .thrdblock{
+    height: 800px;}
+    .div43 button{
+        width: 130px;
+        font-size: 11px;
+}
+}
+@media (min-width: 601px) and (max-width: 768px){
+    .thrdblock{
+        height: 700px;}
+}
+
+@media (min-width: 601px) and (max-width: 910px){
+    .frstblock{
+        height: 800px;
+    }
+    .div11{
+        font-size: 60px;
+    }
+    .div12{
+        font-size: 20px;
+    }
+    .div13 button{
+        width: 115px;
+        font-size: 13px;
+     }
+    .scndblock{
+        margin: 5% 0;
+    }
+    .div21{
+        font-size: 36px;
+    }
+    .div22{
+        font-size: 22px;
+    }
+    .div23 button{
+    width: 165px;
+    font-size: 13px;
+    }
+    .div41{
+        font-size: 60px;
+    } 
+}
+@media (min-width: 911px){
+    .div41{
+        width: 50%;
+        margin: 0 25%;
+    }
+}
